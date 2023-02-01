@@ -1,0 +1,10 @@
+public class NormaliseString {
+
+    public static String normaliseS(String s){
+        return s.toLowerCase().trim().replace(",", "");
+    }
+
+    public static void main(String[] args) {
+        System.out.println(normaliseS("I LOVE TO CODE IN JAVA"));
+    }
+}
